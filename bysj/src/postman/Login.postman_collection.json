@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "e69250c4-6243-4a00-be82-6bcb23ac7e74",
+		"name": "Login",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        username:'01',\r\n        password:'123456'\r\n      \r\n    }"
+				},
+				"url": {
+					"raw": "49.235.39.226:8080/bysj/login.ctl",
+					"host": [
+						"49",
+						"235",
+						"39",
+						"226"
+					],
+					"port": "8080",
+					"path": [
+						"bysj",
+						"login.ctl"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "073bb976-5511-43f5-9fd0-e1492a9b4cf1",
+		"name": "Project",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET 49.235.39.226:8080/bysj/graduateProject.ctl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST 49.235.39.226:8080/bysj/graduateProject.ctl",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"graduateProjectCategory\": {\r\n            \"description\": \"设计\",\r\n            \"id\": 2,\r\n            \"no\": \"02\",\r\n            \"remarks\": \" \"\r\n        },\r\n        \"graduateProjectType\": {\r\n            \"description\": \"应用研究\",\r\n            \"id\": 1,\r\n            \"no\": \"01\",\r\n            \"remarks\": \" \"\r\n        },\r\n        \"teacher\": {\r\n            \"id\": 1,\r\n            \"name\": \"dj\",\r\n            \"no\": \"01\"\r\n        },\r\n        \"title\": \"AI建筑\"\r\n    }"
+				},
+				"url": {
+					"raw": "49.235.39.226:8080/bysj/graduateProject.ctl",
+					"host": [
+						"49",
+						"235",
+						"39",
+						"226"
+					],
+					"port": "8080",
+					"path": [
+						"bysj",
+						"graduateProject.ctl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT 49.235.39.226:8080/bysj/graduateProject.ctl",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"graduateProjectCategory\": {\r\n            \"description\": \"设计\",\r\n            \"id\": 3,\r\n            \"no\": \"03\",\r\n            \"remarks\": \" \"\r\n        },\r\n        \"graduateProjectType\": {\r\n            \"description\": \"应用研究\",\r\n            \"id\": 1,\r\n            \"no\": \"01\",\r\n            \"remarks\": \" \"\r\n        },\r\n        \"id\": 2,\r\n        \"teacher\": {\r\n            \"id\": 1,\r\n            \"name\": \"dj\",\r\n            \"no\": \"01\"\r\n        },\r\n        \"title\": \"AI建筑187476465756756\"\r\n    }"
+				},
+				"url": {
+					"raw": "49.235.39.226:8080/bysj/graduateProject.ctl",
+					"host": [
+						"49",
+						"235",
+						"39",
+						"226"
+					],
+					"port": "8080",
+					"path": [
+						"bysj",
+						"graduateProject.ctl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE 49.235.39.226:8080/bysj/graduateProject.ctl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

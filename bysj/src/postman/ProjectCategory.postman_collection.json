@@ -1,0 +1,101 @@
+{
+	"info": {
+		"_postman_id": "04a602eb-fe25-4154-b35d-8119e2f72d6a",
+		"name": "ProjectCategory",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get 49.235.39.226:8080/bysj/graduateProjectCategory.ctl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST 49.235.39.226:8080/bysj/graduateProjectCategory.ctl",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"description\": \"sheji\",\r\n        \"no\": \"02\",\r\n        \"remarks\": \" \"\r\n    }"
+				},
+				"url": {
+					"raw": "49.235.39.226:8080/bysj/graduateProjectCategory.ctl",
+					"host": [
+						"49",
+						"235",
+						"39",
+						"226"
+					],
+					"port": "8080",
+					"path": [
+						"bysj",
+						"graduateProjectCategory.ctl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT 49.235.39.226:8080/bysj/graduateProjectCategory.ctl",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n        \"description\": \"设计1\",\r\n        \"id\": 2,\r\n        \"no\": \"02\",\r\n        \"remarks\": \" \"\r\n    }"
+				},
+				"url": {
+					"raw": "49.235.39.226:8080/bysj/graduateProjectCategory.ctl",
+					"host": [
+						"49",
+						"235",
+						"39",
+						"226"
+					],
+					"port": "8080",
+					"path": [
+						"bysj",
+						"graduateProjectCategory.ctl"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE 49.235.39.226:8080/bysj/graduateProjectCategory.ctl",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "49.235.39.226:8080/bysj/graduateProjectCategory.ctl?id=2",
+					"host": [
+						"49",
+						"235",
+						"39",
+						"226"
+					],
+					"port": "8080",
+					"path": [
+						"bysj",
+						"graduateProjectCategory.ctl"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
